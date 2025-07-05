@@ -32,7 +32,7 @@ main {
 
 
 .card{
-    min-width: 18.75rem;
+    width: 18.75rem;
     padding: clamp(1rem, 2vw, 1.5rem);
     border-radius: 0.625rem;
     background-color:var(--clr-white);
