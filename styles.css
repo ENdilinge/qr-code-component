@@ -10,15 +10,25 @@
   --clr-text-muted: hsl(216, 15%, 48%);
 }
 
-body{
-    font-family: 'Outfit',sans-serif;
-    background: var(--clr-background);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body {
+  background: var(--clr-background);
+  font-family: 'Outfit', sans-serif;
+  color: var(--clr-text-dark);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
 
 .card{
     width: 18.75rem;
